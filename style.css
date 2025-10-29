@@ -1,0 +1,100 @@
+h1{
+    color: white;
+}
+body {
+    border: 2px solid gold;
+    text-align: center;
+}
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+  
+}
+
+nav ul li a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+img{
+    border-radius: 50%;
+    margin-left: 40px;
+    box-shadow: 10px 5px 5px black;
+
+}
+
+header{
+    padding-top: 10px;
+    background-color: blue;
+    padding-bottom: 10px;
+}
+#projects ul{
+    list-style: none;
+}
+
+h1 ,h2{
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#projects article{
+    background-color:rgba(0, 255, 213, 0.871);
+    height: 100px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 1%;
+    border-radius: 8px;
+}
+
+#skills table thead{
+    background-color: aqua;
+}
+
+#skills table{
+    margin: 20px auto;
+    width: 70%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+    
+#skills table tbody td {
+  border: 1px solid aqua; 
+  padding: 10px;
+}
+
+#contact form  p{
+    margin: auto;
+    width: 40%;
+    border: 2px solid darkmagenta;
+    padding: 2%;
+    border-collapse: collapse;
+    
+}
+
+
+
+#contact form  p label{
+    float: left;
+    width: 20px;
+}
+
+#contact form  p input{
+    height: 30px;
+    width: 300px;
+}
+#contact form  p textarea{
+    height: 30px;
+    width: 300px;
+}
+
+button{
+    background-color: aqua;
+    width: 250px;
+    height: 40px;
+}
+
+button:hover{
+    background-color:gold ;
+}
+footer{
+    text-align: left;
+}
